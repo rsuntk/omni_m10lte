@@ -4,7 +4,7 @@
 /cache        ext4     /dev/block/platform/13540000.dwmmc0/by-name/CACHE        flags=display="Cache";wipeingui
 /system       ext4     /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM       flags=display="System";wipeingui;flashimg=1;backup=1
 /data         f2fs     /dev/block/platform/13540000.dwmmc0/by-name/USERDATA     flags=display="Data";backup=1;wipeingui
-/external_sd       vfat     /dev/block/mmcblk1p1                                     flags=display="External Storage";removable;storage
+/external_sd       auto     /dev/block/mmcblk1p1                                     flags=display="External Storage";removable;storage
 /misc         emmc     /dev/block/platform/13540000.dwmmc0/by-name/MISC         flags=display="Misc";backup=1
 /vendor       ext4     /dev/block/platform/13540000.dwmmc0/by-name/VENDOR       flags=display="Vendor";backup=1;flashimg=1;wipeingui
 /odm          ext4     /dev/block/platform/13540000.dwmmc0/by-name/ODM          flags=display="ODM";backup=1
