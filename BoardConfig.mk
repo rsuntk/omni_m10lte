@@ -77,6 +77,8 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_DEVICE_VERSION := rsuntk.v1
 TW_THEME := portrait_hdpi
+TW_NO_SCREEN_BLANK := true
+TW_NO_SCREEN_TIMEOUT := true
 TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true

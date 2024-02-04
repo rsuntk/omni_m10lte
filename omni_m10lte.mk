@@ -14,6 +14,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from m10lte device
 $(call inherit-product, device/samsung/m10lte/device.mk)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m10lte/recovery/root,recovery/root)
+
 PRODUCT_DEVICE := m10lte
 PRODUCT_NAME := omni_m10lte
 PRODUCT_BRAND := samsung
